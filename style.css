@@ -1,0 +1,284 @@
+ /* Import the Roboto font from Google Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+ /* Set the font family for the entire website */
+ body {
+     font-family: 'Roboto', Arial, sans-serif;
+     font-size: 16px;
+     line-height: 1.6;
+     color: #333;
+ }
+
+ /* Set the font family for headings */
+ h1, h2, h3, h4, h5, h6 {
+     font-family: 'Roboto', Arial, sans-serif;
+     font-weight: 700;
+     margin-bottom: 1rem;
+     
+ }
+
+ /* Set the font family for paragraphs */
+ p {
+     margin-bottom: 1.5rem;
+ }
+
+ /* Set the font family for links */
+ a {
+     color: #007bff;
+     text-decoration: none;
+ }
+
+ a:hover {
+     text-decoration: underline;
+ }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        .text-center {
+            text-align: center;
+            color: #0056b3;
+            font-style: bold;
+        }
+
+        /* Navigation */
+        .navbar {
+            margin-bottom: 0;
+            border: none;
+            border-radius: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            
+        }
+
+        .nav-link {
+            color: #f0f0f0 !important;
+        }
+
+        .nav-link:hover {
+            color: #007BFF !important;
+        }
+
+        .btn-primary {
+            background-color: #007BFF;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('Cover.jpg') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .heros {
+            background: url('Cov') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px c
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        /* Call to Action Section */
+        .cta-section {
+            background-color: rgb(60, 179, 113);            ;
+            color: white;
+            padding: 30px 0;
+        }
+
+        .cta-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .btn-warning {
+            background-color: #ffc107;
+            border: none;
+            color: #000;
+        }
+
+        .btn-warning:hover {
+            background-color: #e0a800;
+            color: #000;
+        }
+
+        /* Services Section */
+        .services-section {
+            padding: 40px 0;
+        }
+
+        .services-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .service-item {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .service-item i {
+            margin-bottom: 10px;
+        }
+
+        .service-item h3 {
+            margin-bottom: 10px;
+        }
+
+        /* Process Section */
+        .process-section {
+            background-color: #007BFF;
+         
+            padding: 40px 0;
+            color: #000;
+        }
+
+        .process-section h2 {
+            margin-bottom: 20px;
+            color: #000;
+        }
+
+        .process-step {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            color: #000;
+        }
+
+        .process-step i {
+            margin-bottom: 10px;
+            color: #000;
+        }
+
+        .process-step h3 {
+            margin-bottom: 10px;
+            color: #000;
+        }
+
+        /* Eligibility Section */
+        .eligibility-section {
+            padding: 40px 0;
+        }
+
+        .eligibility-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .eligibility-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .eligibility-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .eligibility-section img {
+            border-radius: 5px;
+        }
+
+        /* News Section */
+        .news-section {
+            background-color: #007BFF;
+            color: white;
+            padding: 40px 0;
+        }
+
+        .news-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .news-item {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            color: #000;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background-color: #007BFF;
+            color: white;
+            padding: 40px 0;
+        }
+
+        .contact-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact-section .btn-warning {
+            color: #000;
+        }
+
+        /* Footer Section */
+        .footer {
+            background-color: rgb(60, 179, 113);            ;
+            padding: 20px 0;
+            color: #ffffff;
+        }
+
+        .footer .contact-info {
+            text-align: center;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .footer ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .footer ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .social-media {
+            text-align: right;
+        }
+
+        .footer .social-media li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .footer .social-media li a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .footer .social-media li a:hover {
+            text-decoration: underline;
+        }
+        
